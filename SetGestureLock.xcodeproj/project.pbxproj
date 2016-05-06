@@ -15,6 +15,8 @@
 		0E18477B1CDC3178004A79BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1847791CDC3178004A79BD /* LaunchScreen.storyboard */; };
 		0E1847861CDC3178004A79BD /* SetGestureLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1847851CDC3178004A79BD /* SetGestureLockTests.m */; };
 		0E1847911CDC3178004A79BD /* SetGestureLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1847901CDC3178004A79BD /* SetGestureLockUITests.m */; };
+		0E1847A21CDC3221004A79BD /* GestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18479F1CDC3221004A79BD /* GestureLockView.m */; };
+		0E1847A31CDC3221004A79BD /* SetGestureLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1847A11CDC3221004A79BD /* SetGestureLockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0E18478C1CDC3178004A79BD /* SetGestureLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetGestureLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1847901CDC3178004A79BD /* SetGestureLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetGestureLockUITests.m; sourceTree = "<group>"; };
 		0E1847921CDC3178004A79BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E18479E1CDC3221004A79BD /* GestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureLockView.h; sourceTree = "<group>"; };
+		0E18479F1CDC3221004A79BD /* GestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureLockView.m; sourceTree = "<group>"; };
+		0E1847A01CDC3221004A79BD /* SetGestureLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGestureLockViewController.h; sourceTree = "<group>"; };
+		0E1847A11CDC3221004A79BD /* SetGestureLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGestureLockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		0E18476A1CDC3178004A79BD /* SetGestureLock */ = {
 			isa = PBXGroup;
 			children = (
+				0E18479E1CDC3221004A79BD /* GestureLockView.h */,
+				0E18479F1CDC3221004A79BD /* GestureLockView.m */,
+				0E1847A01CDC3221004A79BD /* SetGestureLockViewController.h */,
+				0E1847A11CDC3221004A79BD /* SetGestureLockViewController.m */,
 				0E18476E1CDC3178004A79BD /* AppDelegate.h */,
 				0E18476F1CDC3178004A79BD /* AppDelegate.m */,
 				0E1847711CDC3178004A79BD /* ViewController.h */,
@@ -273,6 +283,8 @@
 				0E1847731CDC3178004A79BD /* ViewController.m in Sources */,
 				0E1847701CDC3178004A79BD /* AppDelegate.m in Sources */,
 				0E18476D1CDC3178004A79BD /* main.m in Sources */,
+				0E1847A31CDC3221004A79BD /* SetGestureLockViewController.m in Sources */,
+				0E1847A21CDC3221004A79BD /* GestureLockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
